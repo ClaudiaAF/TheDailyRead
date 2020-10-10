@@ -1,0 +1,22 @@
+
+{% block body %}
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+</head>
+
+<body>
+    
+    
+    <div class="row">
+        This is the profile page of {{ user.name }}
+    </div>
+    
+    {% block javascripts %}{% endblock %}
+</body>
+
+</html>
+{% endblock %}
