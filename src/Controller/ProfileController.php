@@ -15,7 +15,7 @@ class ProfileController extends AbstractController
     {
         $userId = (int) $id;
         $users = [
-            array("id" => 1, "name" => "Mark"),
+            array("id" => 1, "name" => "James"),
             array("id" => 2, "name" => "Grace"),
             array("id" => 3, "name" => "Bill")
         ];
